@@ -18,17 +18,31 @@ header {
   z-index: 100;
 }
 
+/* ✅ Logo Section */
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  height: 60px;          /* Adjust logo size */
+  width: auto;
+  border-radius: 8px;    /* Optional soft curve */
+}
+
+.logo-text {
   font-size: 1.8rem;
   font-family: "Playfair Display", serif;
   color: white;
   letter-spacing: 1px;
 }
 
-.logo span {
+.logo-text span {
   color: #00ff88;
 }
 
+/* NAVIGATION */
 nav a {
   color: #fff;
   text-decoration: none;
