@@ -22,20 +22,23 @@ header {
 .logo {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
 }
 
 .logo img {
-  height: 60px;          /* Adjust logo size */
+  height: 60px;          /* Logo size */
   width: auto;
-  border-radius: 8px;    /* Optional soft curve */
+  border-radius: 8px;    /* Optional */
+  object-fit: contain;
 }
 
+/* ✅ Logo text beside image */
 .logo-text {
   font-size: 1.8rem;
   font-family: "Playfair Display", serif;
   color: white;
   letter-spacing: 1px;
+  font-weight: 600;
 }
 
 .logo-text span {
@@ -43,6 +46,11 @@ header {
 }
 
 /* NAVIGATION */
+nav {
+  display: flex;
+  align-items: center;
+}
+
 nav a {
   color: #fff;
   text-decoration: none;
