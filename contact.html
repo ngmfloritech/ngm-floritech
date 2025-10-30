@@ -113,6 +113,23 @@
       background: #6ed56e;
     }
 
+    .contact-info {
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    .contact-info h3 {
+      color: #8ef18c;
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+
+    .contact-info p {
+      color: #ccc;
+      font-size: 18px;
+      margin: 5px 0;
+    }
+
     footer {
       text-align: center;
       padding: 30px 20px;
@@ -130,9 +147,9 @@
 <body>
   <header>
     <div class="logo">
-     <img src="logo.png" alt="NGM Floritech Logo" />
-     <div class="logo-text">NGM <span>Floritech</span></div>
-   </div>
+      <img src="logo.png" alt="NGM Floritech Logo" />
+      <div class="logo-text">NGM <span>Floritech</span></div>
+    </div>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -148,7 +165,7 @@
     <h2>Contact Us</h2>
     <p>Have a question or want to know more? Send us a message below!</p>
 
-    <!-- Method 1: Direct Mail -->
+    <!-- Contact Form -->
     <form action="mailto:floritechngm@gmail.com" method="POST" enctype="text/plain">
       <label for="name">Name</label>
       <input type="text" id="name" name="Name" placeholder="Your name" required>
@@ -162,14 +179,18 @@
       <button type="submit">Send Message</button>
     </form>
 
-    <!-- Alternative: Formspree method (use if you want auto-email delivery without mail app)
-    <form action="https://formspree.io/f/xyzzabcd" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email" required>
-      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-    -->
+    <!-- Contact Information -->
+    <div class="contact-info">
+      <h3>Our Location</h3>
+      <p>Jeemangalam, Hosur – 635109</p>
+      <p>Tamil Nadu, India</p>
+
+      <h3>Contact Number</h3>
+      <p>+91 8778476483</p>
+      
+      <h3>Email Address</h3>
+      <p>ngmfloritech@gmail.com</p><!-- You can replace this with your actual number -->
+    </div>
   </section>
 
   <footer>
